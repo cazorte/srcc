@@ -13,7 +13,16 @@ public class Zoo {
         FriendlyAnimal frAn = new FriendlyAnimal("", "kamoa", "small", "blue", 'F', 34);
         System.out.println(frAn);
         Crocodile crocodile = new Crocodile("Harts","Nils", "Small", "Green", 'F', 5);
+        System.out.println(crocodile);
 
+        crocodile.crawl();
+        crocodile.hunt();
+        crocodile.drink();
+        crocodile.eat();
+        crocodile.move();
+        crocodile.setAge(5);
+        crocodile.setName("abu");
+        crocodile.setGender('S');
 
 
 
